@@ -1,0 +1,52 @@
+<style>
+    body{
+        font-family:'Poppins'sans-serif;
+        background: linear-gradient(to bottom right,#fff5f5, #ffeef2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        margin: 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        display: block;
+        margin-bottom: 0;
+    }
+    .card img {
+        background: white;
+        width: 120px;
+        padding: 25px ;
+        border-radius: 20px;
+        object-fit:cover;
+        box-shadow: 0 0 10px rgb(208, 60, 142);
+        margin-bottom: 15px;
+    }
+    .card h1 {
+        color: rgb(237, 6, 237);
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .card h2{
+        color: #555;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    table{
+        width: 100%;
+        text-align:left;
+        border-spacing: 5px;
+    }
+    td :first-child{
+        color: #888;
+        width: 35%;
+    }
+    td :last-child{
+        color:#555;
+    }
+    </style>
+
